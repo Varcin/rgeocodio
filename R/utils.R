@@ -1,7 +1,7 @@
 # ensure the passed-in fields are clean and valid for the API as of 2017-03-05
 process_fields <- function(fields) {
 
-  ok_fields <- c("cd", "cd113", "cd114", "cd115", "stateleg", "census", "school", "timezone")
+  ok_fields <- c("cd", "cd113", "cd114", "cd115", "stateleg", "census", "school", "timezone", "census2020", "acs-demographics", "acs-economics", "acs-families", "acs-housing", "acs-social")
 
   fields <- trimws(fields)
   fields <- tolower(fields)
